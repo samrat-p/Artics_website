@@ -1,12 +1,6 @@
-
-        #_bg__desktop___1 {
-            top: 0px;
-            left: 0px;
-            width: 1366px;
-            height: 5869px;
-            position: relative;
-            background:rgba(231.14,238.02,244.37,1);
-        }
+body{
+    background-color:rgba(231.14,238.02,244.37,1);
+}
             #__p__you_can_create {
                 top: 10px;
                 left: 0px;
@@ -475,6 +469,12 @@ color:#000000;
     display: inline;
     left: 50px;
 }
+.artwork_tabs img{
+    width: 379px;
+    height:214px;
+    object-fit: cover;
+    border-radius: 20px;
+}
 #tab10{
     top:900px;
 	left: 50px;
@@ -564,7 +564,18 @@ color:#000000;
 	background:rgba(255,255,255,0.8);
     position: relative;
 }
-
-
-
+body{
+    background-color:rgba(231.14,238.02,244.37,1);
+}
+.circle1 {
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    opacity: 0.3;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 60%;
+  }
 
